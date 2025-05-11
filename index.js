@@ -120,28 +120,28 @@
 
 // 9 home work
 
-// function strAbc(str) {
-//    let vowels="aeuoiAEUOI"
-//    let vowelist=[]
-//    for (let i = 0; i < str.length; i++) {
-//     if(vowels.includes(str[i])){
-//         vowelist.push(str[i])
-//     }
+function strAbc(str) {
+   let vowels="aeuoiAEUOI"
+   let vowelist=[]
+   for (let i = 0; i < str.length; i++) {
+    if(vowels.includes(str[i])){
+        vowelist.push(str[i])
+    }
     
-//    }
-//    vowelist.reverse()
-//    let result=""
-//    let vowelIndex=0
-//    for (let i = 0; i < str.length; i++) {
+   }
+   vowelist.reverse()
+   let result=""
+   let vowelIndex=0
+   for (let i = 0; i < str.length; i++) {
     
-//     if (vowels.includes(str[i])) {
-//         result+=vowelist[vowelIndex]
-//         vowelIndex++
-//     }else{
-//         result+=str[i]
-//     }
+    if (vowels.includes(str[i])) {
+        result+=vowelist[vowelIndex]
+        vowelIndex++
+    }else{
+        result+=str[i]
+    }
     
-//    }
-//     return result
-// }
-// console.log(strAbc("IceCrEAm"));
+   }
+    return result
+}
+console.log(strAbc("IceCrEAm"));
